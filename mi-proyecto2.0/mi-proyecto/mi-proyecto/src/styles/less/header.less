@@ -1,0 +1,54 @@
+  // Importa variables y configuraciones básicas
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: @font-primary;
+    font-weight: 400;
+    font-size: @font-size-base;
+    letter-spacing: 0;
+    font-style: normal;
+
+    .nav-links ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: @base-spacing;
+    }
+
+    img {
+        margin-top: @base-spacing;
+        width: 25%;
+        margin-bottom: @base-spacing;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: @breakpoint-md) {
+        img {
+            width: 50%;  // Make logo larger as the screen gets smaller
+        }
+    }
+
+    @media (max-width: @breakpoint-sm) {
+        .nav-links ul {
+            flex-direction: column;
+        }
+    }
+}
+
+.fusion-secondary-header, .FusionSocial {
+    padding-left: @base-spacing;
+    padding-right: @base-spacing;
+    background-color: @secondary-color;
+    width: 100%;
+    max-width: inherit;
+
+    @media (max-width: @breakpoint-sm) {
+        flex-direction: column;
+        padding: @small-spacing;
+    }
+}

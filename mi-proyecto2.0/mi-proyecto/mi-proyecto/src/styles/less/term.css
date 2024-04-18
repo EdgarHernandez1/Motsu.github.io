@@ -1,0 +1,9 @@
+.container {
+  padding-top: 2vw;
+  font-family: 'Arial', sans-serif;
+  display: inline;
+}
+.terminos {
+  list-style: none;
+  padding: 60px;
+}

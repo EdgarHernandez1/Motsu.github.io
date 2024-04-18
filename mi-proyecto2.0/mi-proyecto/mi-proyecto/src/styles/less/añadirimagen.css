@@ -1,0 +1,144 @@
+.header {
+    background-color: #B0C4DE;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header .nav-links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header .nav-links a {
+    font-weight: bold;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header .nav-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.fusion-secondary-header {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #afafaf;
+    width: 100%;
+    max-width: inherit;
+}
+
+.FusionSocial {
+    padding-top: 2vw;
+    padding-bottom: 1.5vw;
+    display: flex;
+    align-items: center;
+    background: #afafaf;
+    cursor: pointer;
+    width: 100%;
+    max-width: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 1vw;
+}
+
+.fusion-sep-clear {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 1px;
+    background: #8f9195;
+    line-height: 0;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    letter-spacing: 0px;
+}
+
+.anadir-page {
+    background-color: #FFFACD;
+  }
+  
+  .main {
+    padding: 3vw; /* Ajusta el espaciado del contenido principal */
+  }
+  
+  form {
+    margin-top: 2vw; /* Espaciado desde la parte superior */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1vw; /* Espaciado inferior pequeño */
+  }
+  
+  input[type="file"] {
+    margin-bottom: 1vw; /* Espaciado inferior pequeño */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    padding: 0.5rem 1rem; /* Relleno del botón */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición al pasar el ratón */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    width: 100%;
+    max-width: inherit;
+}
+
+footer p,
+footer .email,
+footer nav {
+    flex: 1;
+    padding-left: 3vw;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: list-item;
+    list-style: none;
+    padding: 0;
+    font-family: "Arial";
+    font-weight: 250;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    font-style: normal;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: list-item;
+    margin-right: 1em;
+}

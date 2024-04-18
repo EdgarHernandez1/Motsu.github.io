@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Galería de Arte</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="/mi-proyecto/mi-proyecto/src/styles/css/Style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.3/less.min.js" ></script>
+    
+</head>
+<body class="eventos-page">
+    <script id="evento-template" type="text/x-handlebars-template">
+        <div class="evento">
+            <h3>{{titulo}}</h3>
+            <p><strong>Fecha:</strong> {{fecha}}</p>
+            <p><strong>Descripción:</strong> {{descripcion}}</p>
+            <img src="/mi-proyecto/mi-proyecto/vite-project/public/assets/img/img12.jpg" alt="{{titulo}}">
+        </div>
+    </script>
+    
+    <header>
+        <h1>Galería de Arte</h1>
+        <nav>
+            <a href="index.html"><img src="/mi-proyecto/mi-proyecto/vite-project/public/assets/imagenes/Title.jpg" alt="logo"></a>
+            <div class = "nav-links"> 
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="acerca.html">ACERCA DE MI</a></li>
+                    <li><a href="port.html">PORTFOLIO</a></li>
+                    <li><a href="contactos.html">CONTACTO</a></li>
+                    <li><a href="terminos.html">TERMINOS Y CONDICIONES</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="añadirimagen.html">AÑADIR IMAGEN</a></li>
+                    <li><a href="contribuir.html">CONTRIBUIR</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    
+    <main>
+        <section class="eventos">
+            <h2>Próximos Eventos</h2>
+            <div class="evento">
+                <h3>Exhibición de Pinturas Abstractas</h3>
+                <p><strong>Fecha:</strong> 20 de abril de 2024</p>
+                <p><strong>Descripción:</strong> Únete a nosotros para una noche llena de color y creatividad mientras celebramos la belleza del arte abstracto.</p>
+                <img src="/mi-proyecto/mi-proyecto/vite-project/public/assets/imagenes/32hadesau2.jpg" alt="Exhibición de Pinturas Abstractas">
+            </div>
+            <div class="evento">
+                <h3>Charla con Artista Residente</h3>
+                <p><strong>Fecha:</strong> 25 de abril de 2024</p>
+                <p><strong>Descripción:</strong> Conoce al artista detrás de las obras expuestas en nuestra galería. ¡Una oportunidad única para obtener una visión interna de su proceso creativo!</p>
+                <img src="/mi-proyecto/mi-proyecto/vite-project/public/assets/imagenes/ehdttt4.jpg" alt="Charla con Artista Residente">
+            </div>
+            <div class="evento">
+                <h3>Taller de Arte en Vivo</h3>
+                <p><strong>Fecha:</strong> 30 de abril de 2024</p>
+                <p><strong>Descripción:</strong> Únete a nuestro taller de arte en vivo y experimenta la emoción de crear arte en el momento. ¡No te lo pierdas!</p>
+                <img src="/mi-proyecto/mi-proyecto/vite-project/public/assets/img/img3.jpg" alt="Taller de Arte en Vivo">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Motsu Commissions</p>
+        <section class="email">
+            <a href="email :motsuum@gmail.com">Email : motsuum@gmail.com</a>
+        </section>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="acerca.html">ACERCA DE MI</a></li>
+                <li><a href="port.html">PORTFOLIO</a></li>
+                <li><a href="contactos.html">CONTACTO</a></li>
+                <li><a href="terminos.html">TERMINOS Y CONDICIONES</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="añadirimagen.html">AÑADIR IMAGEN</a></li>
+                <li><a href="contribuir.html">CONTRIBUIR</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script src="/mi-proyecto/mi-proyecto/src/scripts/app.js"></script>
+
+</body>
+</html>

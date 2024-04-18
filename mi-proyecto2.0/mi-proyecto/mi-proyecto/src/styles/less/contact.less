@@ -1,0 +1,27 @@
+@import url(style.less); 
+@import url(header.less);
+@import url(footer.less);
+@import url(responsive.less); 
+
+.fusionl {
+    margin: 0 60px; // Considerar una variable si se usa comúnmente
+}
+
+.social-links {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        display: inline-block;
+        margin: 0 0.26vw;
+        padding-right: 0.26vw;
+        padding: @base-spacing;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 5.417vw;  // Considerar convertir en una variable si se repite
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
